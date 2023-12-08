@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* ... Gaya CSS untuk desktop ... */
+
+@media (max-width: 600px) {
+  .day-button {
+    /* ... Gaya CSS untuk tombol hari di mobile ... */
+  }
+
+  .day-schedule {
+    /* ... Gaya CSS untuk jadwal hari di mobile ... */
+  }
+}
+
+.day-button {
+  font-weight: bold;
+  border: 2px solid #3498db;
+  background: transparent;
+  padding: 15px 30px;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.day-button:hover {
+  background: #3498db;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.day-button:active {
+  transform: translateY(-1px);
+}
+.day-schedule {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.day-schedule td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.hidden {
+  display: none;
+}
+#schedule {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: arial black, sans serif;
+}
+
+.day-button {
+  width: 100%; /* Memanjangkan tombol hari */
+  border-radius: 12px; /* Membuat sudut tumpul */
+  /* ... Gaya lainnya ... */
+  color: white;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.copyright {
+  margin: 10px;
+  color: black;
+  font-size: 14px;
+  background: transparen;
+}
+
+.back-button {
+  font-weight: bold;
+  border: none;
+  background: #2ecc71; /* Warna hijau muda */
+  color: white;
+  padding: 15px 30px;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Bayangan */
+  border-radius: 12px; /* Membuat sudut tumpul */
+}
+
+.back-button:hover {
+  background: #27ae60; /* Warna hijau sedikit lebih gelap saat di-hover */
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); /* Bayangan saat di-hover */
+  color: white;
+  transform: translateY(-7px);
+}
+
+body {
+  /* ... Gaya lainnya ... */
+  background-image: url('302.jpg');
+  background-size: cover; /* Ini akan memastikan gambar menutupi seluruh halaman */
+  background-repeat: no-repeat; /* Ini akan mencegah gambar diulang */
+}
+.hmm {
+    color: white;
+    text-align: center;
+    padding: top;
+}
